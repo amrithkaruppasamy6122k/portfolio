@@ -1,0 +1,25 @@
+# Dependencies & Build
+node_modules/
+dist/
+dist-ssr/
+*.local
+*.tsbuildinfo
+
+# Environment & Secrets (NEVER commit .env)
+.env
+.env.*
+!.env.example
+
+# Vercel & Supabase Local
+.vercel/
+.supabase/
+supabase/.temp/
+
+# Duplicate root source assets (active web assets live under public/)
+/intro.mp4
+/aboutme.mp4
+/backgroundimage.png
+
+# OS & Editor
+.DS_Store
+Thumbs.db

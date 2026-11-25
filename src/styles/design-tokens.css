@@ -1,0 +1,36 @@
+/* ==========================================================================
+   AMRITH PORTFOLIO — CINEMATIC DESIGN TOKENS
+   Derived directly from supplied intro.mp4 & backgroundimage.png:
+   - Obsidian shadow void (#040405)
+   - Charcoal smoke layers (#0F1014 / #16181E)
+   - Warm matchstick ember accent (#EA6C1F / #FB923C)
+   - Warm ivory typography (#F5F3EF) & ash grey secondary (#9A9895)
+   ========================================================================== */
+
+:root {
+  --bg-obsidian: #040405;
+  --bg-charcoal: #0b0c0f;
+  --surface-elevated: rgba(16, 17, 21, 0.78);
+  --surface-card: rgba(19, 21, 26, 0.72);
+  --surface-hover: rgba(27, 29, 36, 0.86);
+
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-smoke: rgba(197, 194, 188, 0.14);
+  --border-ember: rgba(234, 108, 31, 0.32);
+
+  --text-primary: #f5f3ef;
+  --text-secondary: #c5c2bc;
+  --text-muted: #9a9895;
+
+  --accent-ember: #ea6c1f;
+  --accent-ember-bright: #fb923c;
+  --accent-ember-deep: #8f3208;
+  --accent-glow: rgba(234, 108, 31, 0.18);
+
+  --font-display: 'Barlow Condensed', system-ui, -apple-system, sans-serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --radius-card: 1.125rem;
+  --radius-pill: 9999px;
+}
